@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     int opt = 0;
 
     while ((opt = getopt(argc, argv, "hts")) != -1) {  
-        switch (opt){
+        switch (opt) {
         case 'h': 
             help_option();
             break;

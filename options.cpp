@@ -20,7 +20,8 @@ void help_option() {
         cf = enter();
         an = machine(cf);
         output(an);
-    } else {
+    } 
+    else {
         all_tests();
     }
 }

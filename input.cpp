@@ -18,7 +18,7 @@ int clean_buffer() {
     return i;
 }
 
-bool check(){
+bool check() {
     printf(COLOR_CYAN "Select the operation mode. 'T' - tests, 'S' - solution\n" COLOR_RESET);
     char c = ' ';
     int k = scanf("%[TS]", &c);
